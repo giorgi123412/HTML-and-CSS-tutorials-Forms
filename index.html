@@ -7,25 +7,30 @@
     <title>4-forms</title>
 </head>
 <body>
-    <form action="/registration" method="POST">
+    <form action="/carsAction">
         <p>
             <label>
-                First Name
-                <input type="text" name="firstName">
+                <input type="checkbox" name="car" value="tesla"> Tesla
             </label>
         </p>
         <p>
             <label>
-                Last Name
-                <input type="text" name="lastName">
+                <input type="checkbox" name="car" value="porshe"> Porshe
             </label>
         </p>
         <p>
             <label>
-                Password
-                <input type="password" name="Password" required>
+                <input type="checkbox" name="car" value="bmw"> BMW
             </label>
         </p>
+        <p>
+            <label>
+                <input type="checkbox" name="car" value="mersedes"> Mersedes
+            </label>
+        </p>
+        <P>
+           <input type="submit" value="send">
+        </P>
     </form>
 </body>
 </html>
